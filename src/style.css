@@ -11,7 +11,7 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #8C52FF;
 }
 
 .purple {
@@ -89,6 +89,10 @@ button:focus {
   font-size: 1.2rem !important;
 }
 
+.titlename {
+  margin-left: 0.5rem;
+}
+
 .navbar-toggler {
   position: relative !important;
   background-color: transparent !important;
@@ -155,8 +159,8 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 1.5em !important;
+  width: 1.5em !important;
 }
 
 .navbar-nav .nav-link {
@@ -281,17 +285,19 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+  /* color: #cd5ff8; */
+  color: #8C52FF;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #ba55e2 !important;
+  /* color: #8C52FF !important; */
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #874ef8 !important;
 }
 
 @media (max-width: 767px) {
