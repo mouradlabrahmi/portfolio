@@ -1,0 +1,66 @@
+:root {
+    --color-bg: #0b0311; /*030e20 */
+    --color-bg-variant: #330954; /*0a2b60 */
+    --color-primary: #8C52FF; /*54afff */
+    --color-primary-variant: #9e74f2; /* 1c52aa*/
+    --color-white: #fff;
+    --color-light: rgb(202, 198, 198);
+  
+    --transition: all 400ms ease;
+  
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+  }
+
+.nav1 {
+    background: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(10px);
+}
+
+.nav1 a {
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-light);
+    font-size: 1.2rem;
+}
+
+.nav1 a:hover {
+    background: var(--color-bg-variant);
+}
+
+.nav1 a.active {
+    background: var(--color-primary);
+    color: var(--color-bg);
+}
+
+/* section button {
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-light);
+    font-size: 1.2rem;
+}
+
+section button:hover {
+    background: var(--color-bg-variant);
+}
+
+section button.active {
+    background: var(--color-primary);
+    color: var(--color-bg);
+} */

@@ -2,17 +2,18 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo2.png";
-import Button from "react-bootstrap/Button";
+import logo from "../Assets/logo_icon.png";
+// import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
+// import { CgGitFork } from "react-icons/cg";
 import { FaBlog } from "react-icons/fa";
 import {
-  AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlinePhone,
 } from "react-icons/ai";
+import {MdWorkOutline} from "react-icons/md"
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -73,6 +74,19 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to="/experience"
+                onClick={() => updateExpanded(false)}
+              >
+                <MdWorkOutline
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Experiences
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
@@ -95,11 +109,24 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://blogs.soumya-jit.tech/"
+                href="https://blogs.mouradlabrahmi.com/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <FaBlog style={{ marginBottom: "2px" }} /> Blogs
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlinePhone
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Contact
               </Nav.Link>
             </Nav.Item>
 

@@ -1,19 +1,18 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiLinux,
   SiVisualstudiocode,
   SiPostman,
   SiHeroku,
-  SiVercel,
+  SiSentry,
+  SiJirasoftware,
 } from "react-icons/si";
+import { BsGithub } from "react-icons/bs"
+import { CgLinear } from "react-icons/cg"
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiLinux />
-      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
       </Col>
@@ -21,10 +20,19 @@ function Toolstack() {
         <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiHeroku />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
+        <SiSentry />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <BsGithub />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <CgLinear />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJirasoftware />
       </Col>
     </Row>
   );
