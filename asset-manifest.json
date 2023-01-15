@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.7e4a88bc.css",
+    "main.js": "/portfolio/static/js/main.92213ad2.js",
+    "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/home-image.png": "/portfolio/static/media/home-image.0739a36ac9b275638e2e.png",
+    "static/media/emotion.png": "/portfolio/static/media/emotion.eabfc16e7a146ab15778.png",
+    "static/media/suicide.png": "/portfolio/static/media/suicide.9c86cd7138a398c45fa5.png",
+    "static/media/logo_icon.png": "/portfolio/static/media/logo_icon.a175a3f3d2340c8c6cff.png",
+    "static/media/CVMouradLabrahmiD.pdf": "/portfolio/static/media/CVMouradLabrahmiD.d2184e3dde398c5890f1.pdf",
+    "static/media/mourad1.png": "/portfolio/static/media/mourad1.c34987a06dc587a6bf8c.png",
+    "static/media/mentor.jpeg": "/portfolio/static/media/mentor.79da8c76e111edbe4cea.jpeg",
+    "static/media/ecomApi.png": "/portfolio/static/media/ecomApi.c62f99ac3c26c921ea25.png",
+    "static/media/recommandationsys.png": "/portfolio/static/media/recommandationsys.f2b00b136fb54e971d40.png",
+    "static/media/mascir.jpeg": "/portfolio/static/media/mascir.971237fca39ea7ff7a7b.jpeg",
+    "static/media/ceit.png": "/portfolio/static/media/ceit.55cd2430668714a7fc5c.png",
+    "static/media/meetin.jpeg": "/portfolio/static/media/meetin.3aa223c5b47fb0fa9cc2.jpeg",
+    "static/media/pre.svg": "/portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/portfolio/index.html",
+    "main.7e4a88bc.css.map": "/portfolio/static/css/main.7e4a88bc.css.map",
+    "main.92213ad2.js.map": "/portfolio/static/js/main.92213ad2.js.map",
+    "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e4a88bc.css",
+    "static/js/main.92213ad2.js"
+  ]
+}
