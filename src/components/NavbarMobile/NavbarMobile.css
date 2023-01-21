@@ -2,7 +2,7 @@
     --color-bg: #0b0311; /*030e20 */
     --color-bg-variant: #330954; /*0a2b60 */
     --color-primary: #8C52FF; /*54afff */
-    --color-primary-variant: #9e74f2; /* 1c52aa*/
+    --color-primary-variant: #b08df6; /* 1c52aa*/
     --color-white: #fff;
     --color-light: rgb(202, 198, 198);
   
@@ -14,10 +14,10 @@
   }
 
 .nav1 {
-    background: rgba(0, 0, 0, 0.3);
-    width: max-content;
+    background: rgba(255, 255, 255, 0.3);
+    width:auto;
     display: block;
-    padding: 0.7rem 1.7rem;
+    /* padding: 0.7rem 1.7rem; */
     z-index: 2;
     position: fixed;
     left: 50%;
@@ -27,6 +27,8 @@
     gap: 0.8rem;
     border-radius: 3rem;
     backdrop-filter: blur(10px);
+    margin-right: 1rem;
+    /* margin-left: 1rem; */
 }
 
 .nav1 a {
@@ -34,7 +36,7 @@
     padding: 0.9rem;
     border-radius: 50%;
     display: flex;
-    color: var(--color-light);
+    color: #fff;
     font-size: 1.2rem;
 }
 
@@ -44,10 +46,15 @@
 
 .nav1 a.active {
     background: var(--color-primary);
-    color: var(--color-bg);
+    color: var(--color-white);
 }
 
-/* section button {
+.nav1 a.inactive {
+    /* background: var(--color-primary); */
+    color: var(--color-white);
+}
+
+.nav1 button {
     background: transparent;
     padding: 0.9rem;
     border-radius: 50%;
@@ -56,11 +63,11 @@
     font-size: 1.2rem;
 }
 
-section button:hover {
+.nav1 button:hover {
     background: var(--color-bg-variant);
 }
 
-section button.active {
+.nav1 button.active {
     background: var(--color-primary);
-    color: var(--color-bg);
-} */
+    /* color: var(--color-bg); */
+}

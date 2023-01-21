@@ -49,9 +49,9 @@ useEffect(() => {
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
-        {isMobile ? <NavbarMobile/> : ""}
-        <Navbar />
         <ScrollToTop />
+        {isMobile ? <NavbarMobile/> : ''}
+        <Navbar/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/experience" element={<Experience/>}/>
